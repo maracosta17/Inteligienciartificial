@@ -1,37 +1,78 @@
-<article id="top" class="wrapper style1">
-  <header>
-    <h1>Bienvenido a Inteligencia Artificial</h1>
-    <p>Explora el fascinante mundo de la IA, desde los fundamentos hasta sus aplicaciones más innovadoras.</p>
-  </header>
-
-  <section>
-    <h2>¿Qué es la Inteligencia Artificial?</h2>
-    <p>La Inteligencia Artificial (IA) es una rama de la informática que se enfoca en desarrollar sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el reconocimiento de voz, visión por computadora, toma de decisiones y aprendizaje automático.</p>
-  </section>
-
-  <section>
-    <h2>Lenguajes y Herramientas Comunes en IA</h2>
-    <ul>
-      <li><strong>Python</strong> – El lenguaje más utilizado en IA por su simplicidad y ecosistema.</li>
-      <li><strong>TensorFlow</strong> – Biblioteca de Google para redes neuronales profundas.</li>
-      <li><strong>Scikit-learn</strong> – Herramienta para algoritmos de aprendizaje automático.</li>
-      <li><strong>OpenCV</strong> – Biblioteca de visión por computadora.</li>
-      <li><strong>Keras</strong> – Interfaz simple para construir modelos de aprendizaje profundo.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Aplicaciones Reales de la IA</h2>
-    <ul>
-      <li>Reconocimiento facial en dispositivos móviles.</li>
-      <li>Asistentes virtuales como Siri, Alexa y ChatGPT.</li>
-      <li>Vehículos autónomos que interpretan el entorno en tiempo real.</li>
-      <li>Sistemas de recomendación en Netflix, Spotify y Amazon.</li>
-      <li>Diagnóstico médico asistido por algoritmos de IA.</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p><small>Página creada por maracosta17 como parte del curso de Inteligencia Artificial. Plantilla basada en HTML5 UP.</small></p>
-  </footer>
-</article>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Inteligencia Artificial</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1581090700227-1e8e6d34f1cf?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      padding-top: 20vh;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+    .icons a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.5em;
+      transition: color 0.3s ease;
+    }
+    .icons a:hover {
+      color: #66f2ff;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 2em;
+      padding: 0.7em 1.5em;
+      background-color: #66f2ff;
+      color: #000;
+      font-weight: bold;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #4dd0e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Curso de Inteligencia Artificial</h1>
+    <p>Autora: Maryorie Vílucé – Universidad de Panamá</p>
+    <div class="icons">
+      <a href="https://github.com/maracosta17/Inteligenciaartificial" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fas fa-file-pdf"></i></a>
+      <a href="#"><i class="fas fa-laptop-code"></i></a>
+      <a href="#"><i class="fas fa-graduation-cap"></i></a>
+    </div>
+    <a href="https://github.com/maracosta17/Inteligenciaartificial" class="button" target="_blank">Ver recursos del curso</a>
+  </div>
+</body>
+</html>
